@@ -19,5 +19,12 @@
 // Variables - ensures variables are defined first before being used by partials
 @import 'base/variables';
 
+// Default styles for the entire app for uniformity
+@import 'base/defaults';
+
 // Partials - main css files
+@import 'partials/*';
 @import 'partials/layout/*';
+
+// Media queries for a responsive design
+@import "responsive/*";
